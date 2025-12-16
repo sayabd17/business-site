@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Miracle Sapphires</title>
+    <style>
+        body {
+            font-family: courier;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: black;
+        }
+        
+        header {
+            background-color: #000080;
+            color: white;
+            padding: 10px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #333;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+        }
+
+        header1 {
+            background-color: #000080;
+            color: white;
+            padding: 3px 0;
+        }
+
+
+        header3 {
+            background-color: #000080;
+            color: white;
+            padding: 2px 0;
+        }
+
+        .category-title {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        div.gallery {float:left;margin:10px;
+            background-color: #D3D3D3;
+            padding: 9px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 200px;
+            border: 4px solid navy;
+           
+        }
+
+        div.gallery img {
+            width: 180px;
+            height: 270px;
+            border-radius: 5px;
+        }
+
+
+        div.gemstone-card {float:left;
+            display: flex;
+             
+            padding: 10px;
+            background-color:#87CEEB;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            margin-bottom: 8px;
+            width: 75%;
+            height:86%;
+            max-height:290px;
+            max-width: 290px;
+        }
+
+        .product-info {
+            max-width: 60%;
+            text-align: left;
+        }
+
+        div.gemstone-container {
+            display: block;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;}
+
+    .text-with-border {
+      border-left: 4px solid #333; 
+      padding-left: 20px;       
+      margin: 20px 0;}
+
+    .clearfix {
+    clear: both;
+}
+
+
+      footer{
+    background-color: #000080;
+    color: white;
+    text-align: center;
+
+    position: fixed;
+    bottom: 0;
+    width: 92%;
+    height: 50px;}
+
+   
+        .container {
+            width: 120%;
+        }
+    video {
+      width: 850px;
+      height: 400px;
+    }
+
+    input[type=text],[type=date],[type=time]{
+        font-family: 'Courier New', Courier, monospace;
+        font-size: large;
+        
+        border:3px solid #000080;
+        padding: 10px;
+        background-color: darkgray;
+
+    }
+    input[type=submit]{
+        
+        font-family: 'Courier New', Courier, monospace;
+        font-size: large;
+        color: white;
+        border:3px solid darkgray;
+        border-radius: 20px;
+        padding: 10px;
+        background-color:#000080;
+    }
+
+div2{background-color: #D3D3D3;border:3px solid #000080;padding:1px;}
+
+    </style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body background="images/backg.jpg" >
+    <script>
+        var name=window.prompt("Enter Your Name:")
+        
+        
+       var abc=window.confirm("Are you interested in Gemstone and if you wish to continue click ok")
+    
+    if(abc==true){
+        alert("Hi"+" "+name+"  \n "+"Welcome to Miracle Sapphires.....")
+    }else{
+        close()
+    }
+    
+    
+   
+    </script>
+    <br>
+   
+    <center><img src="images/miracle.jpg" alt="Icon" width="180" height="200" style="border: 4px solid #000080;">
+    <section id="home">
+        <h1 style="color:black"><font face="courier" size="7"><b>MIRACLE SAPPHIRES</b></font></h1></center>
+        
+    <header><h2 style="color:black"><b><u><font face="courier">Quality Gemstones:</font></u></b></h2>
+        <p>A well-established company registered under the Gem and Jewellery Authority of Sri Lanka. Explore Miracle Sapphires, a company with the largest collection of gemstones in Sri Lanka. <br>Find the finest gemstone jewelry and shop online at Sri Lanka’s trusted source.</p>
+    </header>
+
+    </section>
+    
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products
+        </a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <div class="text-with-border">
+        <h2>About Us:</h2>
+        <p ><b>We offer the finest quality gemstones, perfect for jewelry or collection. Explore our wide range of rare and stunning gems. Journey with Miracle Sapphires, where the world of gemstones unfolds in its full splendor. Our curated selections are a testament to timeless elegance and global expertise. Dive into a realm where every stone reflects a legacy of passion and precision.</b></p>
+        </div>
+  </section>
+<center>
+  <video controls >
+    <source src="images/WhatsApp Video 2025-04-28 at 21.40.57_01d3062b.mp4" type="video/mp4" >
+  </video></center>
+
+    <section id="products">
+        <h2><div class="text-with-border">Our Products:</div>
+        <ul>
+            
+            <br><a href="#blue-sapphires">1.Blue Sapphires</a>
+            <br><a href="#green-sapphires">2.Green Sapphires</a>
+            <br><a href="#yellow-sapphires">3.Yellow Sapphires</a>
+            <br><a href="#opalescent-sapphires">4.Opalescent Sapphires</a>
+            <br><a href="#tsavorite">5.Tsavorite</a>
+            <br><a href="#pink-sapphires">6.Pink Sapphires</a>
+            <br><a href="#white-sapphires">7.White Sapphires</a>
+            <br><a href="#spinals">8.Spinals</a>
+
+</header1>
+        </ul>
+        </h2>
+        <section id="blue-sapphires">
+        <h2><u><div class="text-with-border">Blue Sapphires:</div></u></h2><h3><header1>Exquisite and vibrant Blue Sapphires for your collection.</header1></h3>
+       
+       
+       <div class="gemstones-container">
+       
+       <div class="gallery">
+            <img src="images/3cb68d66-6a3b-4706-8683-3d9ded89bc3c.jpg" alt="Blue Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+           <center> <pre style="color:#000080"><h3><b><font face="courier">Code=0001
+Carat: 1.5 
+Treatment:Heat
+Origin: Sri Lanka
+Price:$400</font></b></h3></pre></center>
+        </div>
+
+        <div class="gallery">
+            <img src="images/c217d523-1e01-42d9-b1cc-18ab90c4f62b.jpg" alt="Blue Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+           <center> <pre style="color:#000080"><h3><b><font face="courier">Code=0002
+Carat: 1
+Treatment:Heat
+Origin: Sri Lanka
+Price:$500</font></b></h3></pre></center>
+        </div>
+
+        <div class="gallery">
+            <img src="images/ccc3a8ff-f9ac-4f4d-8e85-e51ecdd79232.jpg" alt="Blue Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <center><pre style="color:#000080"><h3><b><font face="courier">Code=0003
+Carat: 1.5 
+Treatment:Un Heat
+Origin: Sri Lanka
+Price:$750</font></b></h3></pre></center>
+        </div>
+        <div class="gallery">
+            <img src="images/e65a18ba-57bd-4042-ac55-265dc151d0a6.jpg" alt="Blue Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <center><pre style="color:#000080"><h3><b><font face="courier">Code=0004
+Carat:3 
+Treatment:Un Heat
+Origin: Sri Lanka
+Price:$1500</font></b></h3></pre></center>
+        </div>
+
+        <div class="gallery">
+            <img src="images/e88abd47-e787-4eb7-8985-4e45f8b2e5e0.jpg" alt="Blue Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <center><pre style="color:#000080"><h3><b><font face="courier">Code=0005
+Carat:2 
+Treatment:Heat
+Origin: Sri Lanka
+Price:$800</font></b></h3></pre></center>
+        </div>
+
+        <div class="gallery">
+            <img src="images/a4e68b79-0c26-4913-aeec-994400794a2c.jpg" alt="Blue Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <center><pre style="color:#000080"><h3><b><font face="courier">Code=0006
+Carat:1(total)
+Treatment:Heat
+Origin: Sri Lanka
+Price:$250</font></b></h3></pre></center>
+        </div>
+
+        <div class="gallery">
+            <img src="images/562f4372-bbae-4acb-8691-944044049461.jpg" alt="Blue Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+           <center> <pre style="color:#000080"><h3><b><font face="courier">Code=0007
+Carat:1 
+Treatment:Heat
+Origin: Sri Lanka
+Price:$350</font></b></h3></pre></center>
+        </div>
+
+        <div class="gallery">
+            <img src="images/7a04de27-4c81-40fb-b74c-aeb030ddab86.jpg" alt="Blue Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+           <center> <pre style="color:#000080"><h3><b><font face="courier">Code=0008
+Carat:1.5
+Treatment:Heat
+Origin: Sri Lanka
+Price:$350</font></b></h3></pre></center>
+        </div>
+
+        <div class="gallery">
+            <img src="images/3b08aaaf-f1da-4633-9213-3b0720fbac10.jpg" alt="Blue Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <center><pre style="color:#000080"><h3><b><font face="courier">Code=0009
+Carat:1(total)
+Treatment:Heat
+Origin: Sri Lanka
+Price:$250</font></b></h3></pre></center>
+        </div>
+        <div class="gallery">
+            <img src="images/11fe3660-0aee-4699-ad5f-a09667fe3668.jpg" alt="Blue Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <center><pre style="color:#000080"><h3><b><font face="courier">Code=0010
+Carat:3,2.5,2,2
+Treatment:Heat
+Origin: Sri Lanka
+Price:$$$$</font></b></h3></pre></center>
+        </div>
+ </div>
+
+</section>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<section id="green-sapphires">
+        <h2><u><div class="text-with-border">Green Sapphires:</div></u></h2><h3><header1>The greatest of luxury and elegance, perfect for any occasion.</header1></h3>
+
+       <div class="gemstone-container">
+       
+       <div class="gallery">
+            <img src="images/d21e82dd-ae29-4aa0-ad25-b3236daf72e8.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0011
+Carat:2
+Treatment:Un Heat
+Origin:Madagascar
+Price:$500</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/009656e1-ff7d-4168-80c7-c0a3567d462d.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0012
+Carat:3
+Treatment:Un Heat
+Origin:Madagascar
+Price:$1000</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/d8b8552c-bc8f-48f0-8558-ac1ec6aa1a29.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0013
+Carat:1.5
+Treatment:Un Heat
+Origin:Madagascar
+Price:$400</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/949daa07-2086-45dd-a071-699cceb4d10a.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0014
+Carat:1.5
+Treatment:Un Heat
+Origin:Madagascar
+Price:$400</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/1c0081df-d8ab-4b3d-bf2b-4fbd23264019.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0015
+Carat:1.5
+Treatment:Un Heat
+Origin:Madagascar
+Price:$250</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/a809c3ff-d6e1-40a3-9cf2-215950da773e.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0016
+Carat:2
+Treatment:Un Heat
+Origin:Madagascar
+Price:$350</font></b></h3></pre>
+        </div>
+
+
+
+</div>
+            
+
+</section>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<section id="yellow-sapphires">
+        <h2><u><div class="text-with-border">Yellow Sapphires:</div></u></h2><h3><header1>Make Golden days with Golden collection.</header1></h3>
+
+       <div class="gemstone-container">
+       
+       <div class="gallery">
+            <img src="images/cbc179db-130b-4d64-8a75-5a52f302f30e.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0017
+Carat:5
+Treatment:Heat
+Origin:Sri Lanka
+Price:$500/carat</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/42889282-cf4e-46fc-82c2-8f5bf516f0f8.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0018
+Carat:2
+Treatment:Heat
+Origin:Sri Lanka
+Price:$700</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/1e361298-e186-460e-800d-ea2c192fd674.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0019
+Carat:1.5
+Treatment:Heat
+Origin:Sri Lanka
+Price:$350</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/e25f3420-a9fd-4b81-bf2d-8d317e351b75.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0020
+Carat:2
+Treatment:Heat
+Origin:Sri Lanka
+Price:$450</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/cf22973b-0834-4519-aea5-f7aed5538b73.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0021
+Carat:1.5
+Treatment:Heat
+Origin:Sri Lanka
+Price:$350</font></b></h3></pre>
+        </div>
+
+</div>
+            
+
+</section>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+   <div class="clearfix"></div>
+
+   <section id="opalescent-sapphires">
+
+        <h2><u><div class="text-with-border">Opalescent Sapphire:</div></u></h2><h3><header1>Enjoy the day with sparkles.</header1></h3>
+
+       <div class="gemstone-container">
+
+        <div class="gallery">
+            <img src="images/817fe996-6a68-4455-8405-9092b5a4e4dd.jpg" alt="Opalescent Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">Code=0022
+Carat:1.5
+Treatment:Un Heat
+Origin:Sri Lanka
+Price:$350</font></b></h3></pre>
+        </div>
+        <div class="gallery">
+            <img src="images/d4a3c827-a37f-46e2-a001-564895345a94.jpg" alt="Opalescent Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">Code=0023
+Carat:1.5
+Treatment:Un Heat
+Origin:Sri Lanka
+Price:$450</font></b></h3></pre>
+        </div>
+
+        <div class="gallery">
+            <img src="images/.jpg" alt="Opalescent Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">Code=0024
+Carat:1
+Treatment:Un Heat
+Origin:Sri Lanka
+Price:$220</font></b></h3></pre>
+        </div>
+        <div class="gallery">
+            <img src="images/2835482f-a6ed-456a-ae61-4db605950903.jpg" alt="Opalescent Sapphire" class="gemstone-image"style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">Code=0025
+Carat:2
+Treatment:Un Heat
+Origin:Madagascar
+Price:$600</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/11325ab3-eacb-4665-a41e-eec7ac8c221e.jpg" alt="Opalescent Sapphire" class="gemstone-image"style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">Code=0026
+Carat:1.5
+Treatment:Un Heat
+Origin:Sri Lanka
+Price:$420</font></b></h3></pre>
+        </div>
+       <div class="gallery">
+            <img src="images/f079e2bd-6308-443b-95b6-4c445f8ace03.jpg" alt="Opalescent Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">Code=0027
+Carat:1
+Treatment:Un Heat
+Origin:Sri Lanka
+Price:$200</font></b></h3></pre>
+        </div>
+
+</div></section>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<section id="tsavorite">
+        <h2><u><div class="text-with-border">Tsavorites:</div></u></h2><h3><header1>Bright green Tsavorite with flawless clarity.</header1></h3>
+
+       <div class="gemstone-container">
+       
+        <div class="gallery" >
+            <img src="images/8d130cd5-f4df-488e-acef-706f5a866828.jpg" alt="Tsavorite" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0028
+Carat:1
+Origin:Tanzania
+Price:$450</font></b></h3></pre>
+        </div>
+
+        <div class="gallery">
+            <img src="images/dede656b-3379-470e-ad02-cbb369be3297.jpg" alt="Tsavorite" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0029
+Carat:1(total)
+Origin:Tanzania
+Price:$200</font></b></h3></pre>
+        </div>
+
+
+        <div class="gallery">
+            <img src="images/3f98215a-f06d-4366-9674-ed83acb7901e.jpg" alt="Tsavorite" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0030
+Carat:1.5(total)
+Origin:Tanzania
+Price:$300</font></b></h3></pre>
+        </div>
+
+        <div class="gallery">
+            <img src="images/53a3e7cd-01a2-4aec-92a4-e4edbb2c20d6.jpg" alt="Tsavorite" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0031
+Carat:1.5(total)
+Origin:Tanzania
+Price:$250</font></b></h3></pre>
+        </div>
+        <div class="gallery">
+            <img src="images/b1294afc-0752-4bba-aabb-ca6d615db04e.jpg" alt="Tsavorite" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0032
+Carat:1.5(total)
+Origin:Tanzania
+Price:$250</font></b></h3></pre>
+        </div>
+        <div class="gallery">
+            <img src="images/209a6aef-9ce2-4cd7-bb70-72a93bc14a33.jpg" alt="Tsavorite" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0033
+Carat:......
+Origin:Tanzania
+Price:$800</font></b></h3></pre>
+        </div>
+</div>
+</section>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>          
+<section id="pink-sapphires">
+        <h2><u><div class="text-with-border">Pink Sapphires:</div></u></h2><h3><header1>The greatest of luxury and elegance, perfect for any occasion.</header1></h3>
+
+       <div class="gemstone-container">
+       
+        <div class="gallery">
+            <img src="images/5488c023-b718-42ae-bf42-e2f277eed0b9.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0034
+Carat:2
+Treatment:Un Heat
+Origin:Madagascar
+Price:$800</font></b></h3></pre>
+        </div>
+
+        <div class="gallery">
+            <img src="images/5f76718a-ee36-4a41-b2a6-1e5a8bc62122.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0035
+Carat:2
+Treatment:Un Heat
+Origin:Madagascar
+Price:$650</font></b></h3></pre>
+        </div>
+
+        <div class="gallery">
+            <img src="images/3ce23cbb-1f6d-4715-8ecb-04afeddb0543.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0036
+Carat:1.5
+Treatment:Un Heat
+Origin:Madagascar
+Price:$450</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/0e1e1b7b-7c0a-4978-bf80-f37df1877b83.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0037
+Carat:1.5
+Treatment:Un Heat
+Origin:Madagascar
+Price:$400</font></b></h3></pre>
+        </div>
+       <div class="gallery">
+            <img src="images/6f77c6dd-f8a5-4e9a-ab4b-adbac63de5fb.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0038
+Carat:2
+Treatment:Un Heat
+Origin:Madagascar
+Price:$450</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/8a79ff65-309e-446f-8f91-15f7737e36c4.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0039
+Carat:1
+Treatment:Un Heat
+Origin:Madagascar
+Price:$250</font></b></h3></pre>
+        </div>
+       <div class="gallery">
+            <img src="images/24c46cbe-2f15-495f-b266-5e14dc702774.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0040
+Carat:1.5
+Treatment:Un Heat
+Origin:Madagascar
+Price:$350</font></b></h3></pre>
+        </div>
+       <div class="gallery">
+            <img src="images/48c55f0a-ca58-4693-8c6f-1cd6918ae2f5.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0041
+Carat:2
+Treatment:Un Heat
+Origin:Madagascar
+Price:$600</font></b></h3></pre>
+        </div>
+       <div class="gallery">
+            <img src="images/65fd1848-775c-4fc2-b7c7-27491cafd579.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0042
+Carat:2
+Treatment:Un Heat
+Origin:Madagascar
+Price:$900</font></b></h3></pre>
+        </div>
+       <div class="gallery">
+            <img src="images/7474a485-06e1-4e20-b42e-1bf10169a180.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0043
+Carat:2
+Treatment:Heat
+Origin:Madagascar
+Price:$600</font></b></h3></pre>
+        </div>
+       <div class="gallery">
+            <img src="images/7892ca2a-afdb-4afc-877a-58c1c4cc4f95.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0044
+Carat:1.5
+Treatment:Heat
+Origin:Madagascar
+Price:$350</font></b></h3></pre>
+        </div>
+       <div class="gallery">
+            <img src="images/c13194d4-459d-4318-8f72-d2d9e4c5c365.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0045
+Carat:1.5
+Treatment:Un Heat
+Origin:Madagascar
+Price:$500</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/ce5ea28e-957f-48bc-ba37-e158911e25ff.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0046
+Carat:1
+Treatment:Un Heat
+Origin:Sri Lanka
+Price:$250</font></b></h3></pre>
+        </div>
+       <div class="gallery">
+            <img src="images/f0cd991a-c1a9-44e7-ba53-04a0c5b517b1.jpg" alt="Pink Sapphire" class="gemstone-image" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0047
+Carat:1.5
+Treatment:Un Heat
+Origin:Madagascar
+Price:$500</font></b></h3></pre>
+        </div>
+       <div class="gallery">
+            <img src="images/f0f07dc3-efb3-45e9-9a5b-16693d3d16eb.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0048
+Carat:2
+Treatment:Un Heat
+Origin:Madagascar
+Price:$750</font></b></h3></pre>
+        </div></div>
+
+       
+</section>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+<section id="white-sapphires">
+        <h2><u><div class="text-with-border">white Sapphires:</div></u></h2><h3><header1>Collection of cool stones.</header1></h3>
+
+       <div class="gemstone-container">
+       
+       <div class="gallery">
+            <img src="images/bcb374fe-96b3-4855-99eb-796554d17ef6.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0049
+Carat:1.5
+Treatment:Un Heat
+Origin:Sri Lanka
+Price:$350</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/f49adad9-9966-4df1-ab50-ee316bce92e1.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0050
+Carat:1.5
+Treatment:Un Heat
+Origin:Sri Lanka
+Price:$300</font></b></h3></pre>
+        </div>
+
+</div>
+            
+
+</section>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<section id="spinals">
+        <h2><u><div class="text-with-border">Spinals:</div></u></h2><h3><header1>Vibrant colors and excellent clarity.</header1></h3>
+
+       <div class="gemstone-container">
+       
+       <div class="gallery">
+            <img src="images/e558ee85-10d0-4bda-b764-27e5d015e063.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0051
+Carat:2
+Treatment:Un Heat
+Origin:Sri Lanka
+Price:$1300</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/8897d818-46b6-40dd-94a6-03eeeae5d4eb.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0052
+Carat:1
+Treatment:Un Heat
+Origin:Sri Lanka
+Price:$250</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/5dafc7d0-cd5c-40bc-b589-eb7bae8207c4.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0053
+Carat:1.5
+Treatment:Un Heat
+Origin:Sri Lanka
+Price:$450</font></b></h3></pre>
+        </div>
+
+       <div class="gallery">
+            <img src="images/6841cb0b-7c7b-49cc-be49-6e06f5fac678.jpg" style="border: 4px solid #000080;">
+            <pre style="color:#000080"><h3><b><font face="courier">
+Code=0054
+Carat:1.5
+Treatment:Un Heat
+Origin:Sri Lanka
+Price:$350</font></b></h3></pre>
+        </div>
+
+</div>
+            
+
+</section>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+
+    <section id="contact">
+        <h2><div class="text-with-border">Contact Us:-</div>
+       <pre><i class="fas fa-phone"> </i> <div2><font face="courier" size="4">Whatsapp No: +94762244223</div2>
+</font></pre>
+       <pre><i class="fas fa-envelope"> </i> <div2><font face="courier" size="4">Email us: <a href="mailto:miraclesapphireslk@gmail.com">miraclesapphireslk@gmail.com</a></div2></font></pre>
+       <pre><i class="fas fa-map-marker-alt"> </i>  <div2><font face="courier" size="4">Location: 21,Palace Path,Beruwala,Sri Lanka.</div2></font></pre>
+       <pre><i class="fas fa-clock"> </i> <div2><font face="courier" size="4">Working Hours: See Below Schedule</div2></font></pre>
+    <table border="1" cellpadding="6px" cellspacing="0px" align="center" bgcolor="darkgrey" style="font-family: 'Courier New', Courier, monospace;text-align: center;">
+        <tr>
+            <th>Days</th>
+            <th>Opens At</th>
+            <th>Closing Time</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>8.30 am</td>
+            <td>7.00 pm</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>8.30 am</td>
+            <td>7.00 pm</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>8.30 am</td>
+            <td>7.00 pm</td>
+        </tr>
+        <tr>
+            <td>Thurday</td>
+            <td>8.30 am</td>
+            <td>7.00 pm</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td>8.00 am</td>
+            <td>11.00 am</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>8.30 am</td>
+            <td>7.00 pm</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>8.30 am</td>
+            <td>3.00 pm</td>
+        </tr>
+    </table><br>
+    
+    </section>
+    <br>
+    <fieldset >
+        <legend style="font-size:larger;" ><b>For online order</b></legend>
+        <form action="abc.php" method="post">
+            <label style="font-size:larger;"><b>Enter Your Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;</b></label>
+            <input type="text" name="abc1"><br><br>
+            <label style="font-size:larger;"><b>Enter Your Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;</b></label>
+            <input type="text" name="abc2"><br><br>
+            <label style="font-size:larger;"><b>Enter Your Contact Number with country code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;</b></label>
+            <input type="text" name="abc3"><br><br>
+            <label style="font-size:larger;"><b>Which Stone You Are Interested(Enter Stone Code) :-&nbsp;</b></label>
+            <input type="text" name="abc4"><br><br><br><br>
+            <input style="font-size: larger;display: block; margin: 0 auto;" type="submit" value="Click to Submit">
+
+        </form>
+    </fieldset><br><br>
+    <fieldset >
+        <legend style="font-size:larger;"><b>For an Appointment</b></legend>
+        <form action="abcd.php" method="post">
+            <label style="font-size:larger;"><b>Enter your Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;</b></label>
+            <input type="text" name="abcd1"><br><br>
+            <label style="font-size:larger;"><b>Enter your Email &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;</b></label>
+            <input type="text" name="abcd2"><br><br>
+            <label style="font-size:larger;"><b>Enter your Contact Number with country code &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;</b></label>
+            <input type="text" name="abcd3"><br><br>
+            <label style="font-size:larger;"><b>Appointment Date &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;</b></label>
+            <input type="date" name="abcd4"><br><br>
+            <label style="font-size:larger;"><b>Appointment Time &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:-&nbsp;</b></label>
+            <input type="Time" name="abcd5"><br><br><br><br>
+            <input style="font-size: larger;display: block; margin: 0 auto;" type="submit" value="Click to Submit" >
+
+
+
+        </form>
+
+
+
+    </fieldset>
+    <center><P style="background-color: #333;color: white;"><b>Thank You Have A Nice Day.....</b></P></center>
+
+
+    <footer>
+        <p>&copy; 2025 Miracle Sapphires. All rights reserved.</p>
+    </footer>
+    
+    
+
+</body>
+</html>
